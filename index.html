@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="fr" class="locked">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Celia &amp; Arthur · Invitation de mariage</title>
+  <meta name="description" content="Celia &amp; Arthur ont la joie de vous inviter à leur mariage.">
+  <meta name="theme-color" content="#3A2218">
+
+  <!-- Aperçu quand le lien est partagé sur WhatsApp / Messenger.
+       Après la mise en ligne, remplacez VOTRE-SITE.vercel.app par votre vrai lien. -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Celia &amp; Arthur · Invitation de mariage">
+  <meta property="og:description" content="Vous êtes invités à célébrer notre mariage. Ouvrez votre invitation.">
+  <meta property="og:image" content="https://VOTRE-SITE.vercel.app/photos/hero.jpg">
+  <meta property="og:url" content="https://VOTRE-SITE.vercel.app/">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23A24A2B'/%3E%3Ctext x='32' y='41' font-size='26' text-anchor='middle' fill='%23F6EFE3' font-family='serif'%3EC%26A%3C/text%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;1,6..96,400&family=Cinzel:wght@400;500;600&family=Jost:wght@300;400;500&family=Pinyon+Script&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="photos/hero.jpg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <noscript>
+    <p style="padding:2rem;text-align:center;font-family:serif">
+      Cette invitation a besoin de JavaScript pour s'afficher. Merci de l'activer dans votre navigateur.
+    </p>
+  </noscript>
+
+  <!-- ===== OUVERTURE : l'enveloppe ===== -->
+  <div class="intro" id="intro" role="dialog" aria-modal="true" aria-label="Invitation de mariage">
+    <p class="intro__hint" id="introHint"></p>
+
+    <div class="envelope" id="envelope" aria-hidden="true">
+      <div class="env-back"></div>
+      <div class="card" id="card"></div>
+      <div class="env-pocket"></div>
+      <div class="env-flap"></div>
+      <div class="seal"><span id="sealText"></span></div>
+    </div>
+
+    <button class="btn intro__btn" id="openBtn" type="button">Ouvrir notre invitation</button>
+  </div>
+
+  <!-- ===== LE SITE (rempli par script.js à partir des textes en haut du fichier) ===== -->
+  <main class="site" id="site" tabindex="-1"></main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
