@@ -7,12 +7,12 @@
 
 const SITE = {
   // --- Les mariés ---
-  prenom1: "Celia",
-  prenom2: "Arthur",
-  hashtag: "#CeliaEtArthur",
+  prenom1: "Aicha",
+  prenom2: "Ahmed",
+  hashtag: "#Aicha&Ahmed",
 
   // --- Le jour J (heure d'Abidjan = GMT) ---
-  date: "2026-04-16",   // format AAAA-MM-JJ
+  date: "2026-12-20",   // format AAAA-MM-JJ
   heure: "14:30",       // heure de la cérémonie (sert au compte à rebours)
 
   // --- L'enveloppe ---
