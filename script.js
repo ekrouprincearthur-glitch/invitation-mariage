@@ -102,8 +102,8 @@ const SITE = {
     titre: "Confirmer ma présence",
     texte: "Votre présence nous ferait un immense plaisir. Merci de nous confirmer votre venue en quelques instants.",
     bouton: "Confirmer ma présence",
-    lien: "https://forms.gle/VOTRE-LIEN",          // ← collez ici le lien de votre formulaire
-    limite: "Réponse souhaitée avant le 2 avril 2026"
+    lien: "https://docs.google.com/forms/d/e/1FAIpQLSfR-i2XVT5koVsGiQh9cftgDCDTswNozyEkAE9hghA9UMsWvg/viewform?usp=publish-editor",          // ← collez ici le lien de votre formulaire
+    limite: "Réponse souhaitée avant le 30 Novembre 2026"
   },
 
   // --- 8. Pied de page ---
